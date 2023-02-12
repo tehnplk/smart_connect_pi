@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>498</width>
+    <height>544</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <widget class="QLineEdit" name="txt_mobile">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>64</y>
+     <width>481</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 127);</string>
+   </property>
+   <property name="inputMask">
+    <string>99 9999 9999</string>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_1">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>154</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_2">
+   <property name="geometry">
+    <rect>
+     <x>175</x>
+     <y>154</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_3">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>154</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_4">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>252</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_6">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>252</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_5">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>252</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_7">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>349</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_9">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>349</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_8">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>349</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_0">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>444</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>48</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_ok">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>444</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 255, 127);</string>
+   </property>
+   <property name="text">
+    <string>ยืนยัน</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_del">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>444</y>
+     <width>151</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 37, 95);
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>ลบ</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>0</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>เบอร์มือถือ</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
