@@ -193,14 +193,27 @@ color:white;</string>
            <pointsize>20</pointsize>
           </font>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="40,60">
-          <item alignment="Qt::AlignTop">
+         <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="0,20,60">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>height.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QLabel" name="label_3">
             <property name="font">
              <font>
               <pointsize>28</pointsize>
-              <weight>50</weight>
-              <bold>false</bold>
+              <weight>75</weight>
+              <bold>true</bold>
              </font>
             </property>
             <property name="styleSheet">
@@ -209,12 +222,16 @@ color:white;</string>
             <property name="text">
              <string>ส่วนสูง</string>
             </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
            </widget>
           </item>
           <item>
            <widget class="QLCDNumber" name="lcdHeight">
             <property name="styleSheet">
-             <string notr="true">color:white</string>
+             <string notr="true">color:black;
+background-color:white</string>
             </property>
             <property name="segmentStyle">
              <enum>QLCDNumber::Flat</enum>
@@ -231,14 +248,30 @@ color:white;</string>
            <pointsize>20</pointsize>
           </font>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="40,60">
-          <item alignment="Qt::AlignTop">
+         <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="0,20,60">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetDefaultConstraint</enum>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>weight.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QLabel" name="label_4">
             <property name="font">
              <font>
-              <pointsize>28</pointsize>
-              <weight>50</weight>
-              <bold>false</bold>
+              <pointsize>26</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
              </font>
             </property>
             <property name="styleSheet">
@@ -252,7 +285,8 @@ color:white;</string>
           <item>
            <widget class="QLCDNumber" name="lcdWeight">
             <property name="styleSheet">
-             <string notr="true">color:white</string>
+             <string notr="true">color:black;
+background-color:white</string>
             </property>
             <property name="segmentStyle">
              <enum>QLCDNumber::Flat</enum>
@@ -269,12 +303,22 @@ color:white;</string>
            <pointsize>14</pointsize>
           </font>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="40,60">
-          <item alignment="Qt::AlignTop">
+         <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,20,60">
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>index-finger.png</pixmap>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QLabel" name="label_5">
             <property name="font">
              <font>
-              <pointsize>28</pointsize>
+              <pointsize>22</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -290,7 +334,8 @@ color:white;</string>
           <item>
            <widget class="QLCDNumber" name="lcdBmi">
             <property name="styleSheet">
-             <string notr="true">color:white</string>
+             <string notr="true">color:black;
+background-color:white</string>
             </property>
             <property name="lineWidth">
              <number>0</number>
