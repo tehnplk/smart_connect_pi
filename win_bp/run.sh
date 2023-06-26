@@ -1,1 +1,0 @@
-cd /home/pi/smart_connect_pi/win_bp && pwd && lsusb && sleep 5 && ./win_bp
