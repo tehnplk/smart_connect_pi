@@ -1,0 +1,1 @@
+cd /home/pi/smart_conect_pi/win_bmi && pwd && lsusb && sleep 5 && ./win_bmi
