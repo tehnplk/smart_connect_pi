@@ -147,7 +147,7 @@ color:white;</string>
           </font>
          </property>
          <property name="text">
-          <string>Weight (KG)</string>
+          <string>Weight (kg)</string>
          </property>
         </widget>
        </item>
@@ -159,7 +159,7 @@ color:white;</string>
           </font>
          </property>
          <property name="text">
-          <string>Height (CM)</string>
+          <string>Height (cm)</string>
          </property>
         </widget>
        </item>
