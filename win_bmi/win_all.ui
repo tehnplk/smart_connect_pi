@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>728</width>
+    <width>785</width>
     <height>850</height>
    </rect>
   </property>
@@ -20,7 +20,7 @@
    <property name="styleSheet">
     <string notr="true">background-color:rgb(0, 0, 182)</string>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout" stretch="15,15,45">
+   <layout class="QVBoxLayout" name="verticalLayout_3" stretch="20,30,20,30">
     <item>
      <widget class="QGroupBox" name="groupBox">
       <property name="title">
@@ -124,6 +124,97 @@ color:white;</string>
      </widget>
     </item>
     <item>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout" rowstretch="20,80">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Weight (kg)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Height (cm)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLCDNumber" name="lcdWeight">
+         <property name="styleSheet">
+          <string notr="true">color:black;
+background-color:white</string>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Flat</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLCDNumber" name="lcdHeight">
+         <property name="styleSheet">
+          <string notr="true">color:black;
+background-color:white</string>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Flat</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>BMI</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLCDNumber" name="lcdBmi">
+         <property name="styleSheet">
+          <string notr="true">color:black;
+background-color:white</string>
+         </property>
+         <property name="lineWidth">
+          <number>0</number>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Flat</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
      <widget class="QGroupBox" name="groupBox_2">
       <property name="font">
        <font>
@@ -136,39 +227,19 @@ color:white;</string>
        <string notr="true">color:white</string>
       </property>
       <property name="title">
-       <string>อุณหภูมิร่างกาย</string>
+       <string/>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="50,5,25,5">
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
        <item>
-        <widget class="QLabel" name="label_2">
-         <property name="maximumSize">
-          <size>
-           <width>150</width>
-           <height>150</height>
-          </size>
-         </property>
+        <widget class="QLabel" name="label_9">
          <property name="text">
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap>thermometer.png</pixmap>
+          <pixmap>temperature.png</pixmap>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label">
-         <property name="font">
-          <font>
-           <pointsize>16</pointsize>
-           <weight>75</weight>
-           <bold>true</bold>
-          </font>
-         </property>
-         <property name="text">
-          <string>                </string>
          </property>
         </widget>
        </item>
@@ -197,19 +268,6 @@ background-color: rgb(255, 255, 255);</string>
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="label_9">
-         <property name="text">
-          <string/>
-         </property>
-         <property name="pixmap">
-          <pixmap>temperature.png</pixmap>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignCenter</set>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
     </item>
@@ -226,185 +284,76 @@ background-color: rgb(255, 255, 255);</string>
        <string notr="true">color:white</string>
       </property>
       <property name="title">
-       <string>ความดันโลหิต</string>
+       <string/>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_4" stretch="75,25">
-       <item>
-        <widget class="QFrame" name="frame_3">
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
+      <layout class="QGridLayout" name="gridLayout_2" rowstretch="20,80">
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
          </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
+         <property name="text">
+          <string>DIA</string>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="15,75">
-          <item>
-           <widget class="QLabel" name="label_6">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="pixmap">
-             <pixmap>blood-pressure2.png</pixmap>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QFrame" name="frame_8">
-            <property name="frameShape">
-             <enum>QFrame::StyledPanel</enum>
-            </property>
-            <property name="frameShadow">
-             <enum>QFrame::Raised</enum>
-            </property>
-            <layout class="QVBoxLayout" name="verticalLayout_3">
-             <item>
-              <widget class="QFrame" name="frame_5">
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-               <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,0">
-                <item>
-                 <widget class="QLabel" name="label_4">
-                  <property name="font">
-                   <font>
-                    <pointsize>28</pointsize>
-                    <weight>75</weight>
-                    <bold>true</bold>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>บน</string>
-                  </property>
-                  <property name="alignment">
-                   <set>Qt::AlignCenter</set>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QLCDNumber" name="lcdBps">
-                  <property name="styleSheet">
-                   <string notr="true">color:black;
-background-color: rgb(255, 255, 255);</string>
-                  </property>
-                  <property name="segmentStyle">
-                   <enum>QLCDNumber::Flat</enum>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-             <item>
-              <widget class="QFrame" name="frame_4">
-               <property name="font">
-                <font>
-                 <pointsize>36</pointsize>
-                </font>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-               <layout class="QHBoxLayout" name="horizontalLayout_5">
-                <item>
-                 <widget class="QLabel" name="label_3">
-                  <property name="font">
-                   <font>
-                    <pointsize>28</pointsize>
-                    <weight>75</weight>
-                    <bold>true</bold>
-                   </font>
-                  </property>
-                  <property name="text">
-                   <string>ล่าง</string>
-                  </property>
-                  <property name="alignment">
-                   <set>Qt::AlignCenter</set>
-                  </property>
-                 </widget>
-                </item>
-                <item>
-                 <widget class="QLCDNumber" name="lcdBpd">
-                  <property name="styleSheet">
-                   <string notr="true">color:black;
-background-color: rgb(255, 255, 255);</string>
-                  </property>
-                  <property name="segmentStyle">
-                   <enum>QLCDNumber::Flat</enum>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-         </layout>
         </widget>
        </item>
-       <item>
-        <widget class="QFrame" name="frame_6">
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_6">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
          </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
+         <property name="text">
+          <string>PUL</string>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_7" stretch="10,5,10">
-          <item>
-           <widget class="QLabel" name="label_7">
-            <property name="styleSheet">
-             <string notr="true">color: rgb(0, 0, 255);</string>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="pixmap">
-             <pixmap>heart-pulse2.png</pixmap>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_5">
-            <property name="font">
-             <font>
-              <pointsize>16</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>ชีพจร</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLCDNumber" name="lcdPulse">
-            <property name="styleSheet">
-             <string notr="true">color:black;
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>SYS</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLCDNumber" name="lcdBps">
+         <property name="styleSheet">
+          <string notr="true">color:black;
 background-color: rgb(255, 255, 255);</string>
-            </property>
-            <property name="segmentStyle">
-             <enum>QLCDNumber::Flat</enum>
-            </property>
-           </widget>
-          </item>
-         </layout>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Flat</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLCDNumber" name="lcdBpd">
+         <property name="styleSheet">
+          <string notr="true">color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Flat</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLCDNumber" name="lcdPulse">
+         <property name="styleSheet">
+          <string notr="true">color:black;
+background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="segmentStyle">
+          <enum>QLCDNumber::Flat</enum>
+         </property>
         </widget>
        </item>
       </layout>

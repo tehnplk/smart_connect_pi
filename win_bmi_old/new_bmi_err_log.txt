@@ -1,0 +1,1 @@
+'NewBMI' object has no attribute 'resetPatiet''NewBMI' object has no attribute 'resetPatiet''NewBMI' object has no attribute 'resetPatiet''h'type str doesn't define __round__ methodtype str doesn't define __round__ methodtype str doesn't define __round__ method'datetime.datetime' object is not subscriptable'QLabel' object is not callable

@@ -214,7 +214,7 @@ color: rgb(255, 255, 255);</string>
       <property name="title">
        <string/>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="20,35,35">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="25,30,50">
        <item>
         <widget class="QFrame" name="frame_6">
          <property name="styleSheet">
@@ -308,7 +308,7 @@ color: rgb(255, 255, 255);</string>
            </widget>
           </item>
           <item>
-           <widget class="QLCDNumber" name="lcd_pul">
+           <widget class="QLCDNumber" name="lcd_oxim_pul">
             <property name="styleSheet">
              <string notr="true">color:yellow</string>
             </property>
@@ -326,7 +326,7 @@ color: rgb(255, 255, 255);</string>
              <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;;</string>
             </property>
             <property name="text">
-             <string>PULS</string>
+             <string>PUL RATE</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignHCenter|Qt::AlignTop</set>
@@ -347,7 +347,7 @@ color: rgb(255, 255, 255);</string>
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout" stretch="10,40,40,10">
+         <layout class="QHBoxLayout" name="horizontalLayout" stretch="10,30,30,10,20,10">
           <item>
            <widget class="QLabel" name="label">
             <property name="font">
@@ -366,7 +366,7 @@ color: rgb(255, 255, 255);</string>
              <string>SYS</string>
             </property>
             <property name="alignment">
-             <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
             </property>
            </widget>
           </item>
@@ -423,7 +423,36 @@ color: rgb(255, 255, 255);</string>
              <string>DIA</string>
             </property>
             <property name="alignment">
-             <set>Qt::AlignHCenter|Qt::AlignTop</set>
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLCDNumber" name="lcd_press_pul">
+            <property name="font">
+             <font>
+              <family>MS Shell Dlg 2</family>
+              <pointsize>20</pointsize>
+              <weight>9</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:yellow</string>
+            </property>
+            <property name="segmentStyle">
+             <enum>QLCDNumber::Flat</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>PUL</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
             </property>
            </widget>
           </item>
